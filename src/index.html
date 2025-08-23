@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeBattle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>TypeBattle</h1>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- Word Info -->
+    <p class="word-info">Type the following word in <span id="seconds" class="highlight"></span> seconds:</p>
+    <h2 id="current-word">example</h2>
+
+    <!-- Difficulty -->
+    <div class="difficulty">
+      <label for="difficulty">Difficulty:</label>
+      <br>
+      <select id="difficulty">
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+      </select>
+    </div>
+
+    <!-- Input -->
+    <input id="input-word" type="text" placeholder="Start typing ..." autofocus>
+
+    <!-- Message -->
+    <h4 id="message"></h4> 
+
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <h3>Time Left: <span id="time-left">0</span></h3>
+      <h3>Score: <span id="score">0</span></h3>
+    </div>
+
+    <!-- Instructions -->
+    <div class="instructions-box">
+      <h5>Instructions</h5>
+      <p>
+        Type each word in the given amount of time to score.<br>
+        To play again, just type the current word.<br>
+        Your score will reset.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p class="text-center small mt-3 text-muted">Coded by <a href="https://github.com/tanvijain2005">Tanvi Jain</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
