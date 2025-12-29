@@ -1,3 +1,18 @@
-# TypeBattle
-Type Battle is a fun and interactive speed typing game built with HTML, CSS, and JavaScript. The game challenges users to type words quickly and accurately and also give score at the end, helping them improve typing speed and accuracy in a playful way.
-🔗live link : https://tanvijain2005.github.io/TypeBattle/
+
+# Type Battle
+
+**Type Battle** is an interactive typing game where players can test and improve their typing speed and accuracy in a playful way.
+## Live Website
+Check it out here: [🔗](https://tanvijain2005.github.io/TypeBattle/)
+
+## Features
+- Real-time typing challenge against the clock
+- Tracks accuracy and speed (WPM)
+- Responsive design for desktop and mobile
+- Fun and interactive UI
+
+## Tech Stack
+- HTML, CSS, JavaScript
+
+
+
